@@ -1,0 +1,352 @@
+	Session.vim	/^nnoremap  $/;"	m
+	Session.vim	/^nnoremap   za$/;"	m
+	Session.vim	/^nnoremap  $/;"	m
+	Session.vim	/^nnoremap  $/;"	m
+	Session.vim	/^nnoremap <silent>  :TmuxNavigatePrevious$/;"	m
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+0	Session.vim	/^normal! 0$/;"	m
+013|	Session.vim	/^normal! 013|$/;"	m
+017|	Session.vim	/^normal! 017|$/;"	m
+019|	Session.vim	/^normal! 019|$/;"	m
+020|	Session.vim	/^normal! 020|$/;"	m
+021|	Session.vim	/^normal! 021|$/;"	m
+034|	Session.vim	/^normal! 034|$/;"	m
+036|	Session.vim	/^normal! 036|$/;"	m
+05|	Session.vim	/^normal! 05|$/;"	m
+09|	Session.vim	/^normal! 09|$/;"	m
+<BS>	Session.vim	/^vmap <BS> "-d$/;"	m
+<C-Bslash>	Session.vim	/^nnoremap <silent> <C-Bslash> :TmuxNavigatePrevious$/;"	m
+<C-H>	Session.vim	/^nnoremap <C-H> $/;"	m
+<C-J>	Session.vim	/^nnoremap <C-J> <NL>$/;"	m
+<C-K>	Session.vim	/^nnoremap <C-K> $/;"	m
+<C-L>	Session.vim	/^nnoremap <C-L> $/;"	m
+<D-c>	Session.vim	/^vmap <D-c> "*y$/;"	m
+<D-v>	Session.vim	/^map! <D-v> *$/;"	m
+<D-v>	Session.vim	/^nmap <D-v> "*P$/;"	m
+<D-v>	Session.vim	/^vmap <D-v> "-d"*P$/;"	m
+<D-x>	Session.vim	/^vmap <D-x> "*d$/;"	m
+<F7>	Session.vim	/^noremap <buffer> <F7> :call flake8#Flake8()$/;"	m
+<NL>	Session.vim	/^nnoremap <NL> <NL>$/;"	m
+<Plug>(-fzf-/)	Session.vim	/^nnoremap <Plug>(-fzf-\/) \/$/;"	m
+<Plug>(-fzf-:)	Session.vim	/^nnoremap <Plug>(-fzf-:) :$/;"	m
+<Plug>(-fzf-complete-finish)	Session.vim	/^inoremap <silent> <Plug>(-fzf-complete-finish) l$/;"	m
+<Plug>(-fzf-complete-finish)	Session.vim	/^nnoremap <silent> <Plug>(-fzf-complete-finish) a$/;"	m
+<Plug>(-fzf-vim-do)	Session.vim	/^nnoremap <Plug>(-fzf-vim-do) :execute g:__fzf_command$/;"	m
+<Plug>(fzf-complete-buffer-line)	Session.vim	/^inoremap <expr> <Plug>(fzf-complete-buffer-line) fzf#vim#complete#buffer_line()$/;"	m
+<Plug>(fzf-complete-file)	Session.vim	/^inoremap <expr> <Plug>(fzf-complete-file) fzf#vim#complete#path("find . -path '*\/\\.*' -prune -o -type f -print -o -type l -print | sed 's:^..::'")$/;"	m
+<Plug>(fzf-complete-file-ag)	Session.vim	/^inoremap <expr> <Plug>(fzf-complete-file-ag) fzf#vim#complete#path('ag -l -g ""')$/;"	m
+<Plug>(fzf-complete-line)	Session.vim	/^inoremap <expr> <Plug>(fzf-complete-line) fzf#vim#complete#line()$/;"	m
+<Plug>(fzf-complete-path)	Session.vim	/^inoremap <expr> <Plug>(fzf-complete-path) fzf#vim#complete#path("find . -path '*\/\\.*' -prune -o -print | sed '1d;s:^..::'")$/;"	m
+<Plug>(fzf-complete-word)	Session.vim	/^inoremap <expr> <Plug>(fzf-complete-word) fzf#vim#complete#word()$/;"	m
+<Plug>(fzf-insert)	Session.vim	/^nnoremap <silent> <Plug>(fzf-insert) i$/;"	m
+<Plug>(fzf-maps-i)	Session.vim	/^inoremap <silent> <Plug>(fzf-maps-i) :call fzf#vim#maps('i', 0)$/;"	m
+<Plug>(fzf-maps-n)	Session.vim	/^nnoremap <silent> <Plug>(fzf-maps-n) :call fzf#vim#maps('n', 0)$/;"	m
+<Plug>(fzf-maps-o)	Session.vim	/^onoremap <silent> <Plug>(fzf-maps-o) :call fzf#vim#maps('o', 0)$/;"	m
+<Plug>(fzf-normal)	Session.vim	/^nnoremap <silent> <Plug>(fzf-normal) <Nop>$/;"	m
+<Plug>NetrwBrowseX	Session.vim	/^nnoremap <silent> <Plug>NetrwBrowseX :call netrw#BrowseX(netrw#GX(),netrw#CheckIfRemote(netrw#GX()))$/;"	m
+CompareRunner	compare_runner.py	/^class CompareRunner:$/;"	c
+Data	data.py	/^class Data:$/;"	c
+DataFrameCache	dataframe_cache.py	/^class DataFrameCache:$/;"	c
+DataFrameMock	tests/test_data_frame_cache.py	/^class DataFrameMock(pd.DataFrame):$/;"	c
+Experiment	experiment.py	/^class Experiment:$/;"	c
+ExperimentCompare	experiment_compare.py	/^class ExperimentCompare:$/;"	c
+ExperimentFactory	experiment_factory.py	/^class ExperimentFactory:$/;"	c
+ExperimentMock	tests/test_experiment.py	/^class ExperimentMock(Experiment):$/;"	c
+MockData	tests/test_data.py	/^class MockData(Data):$/;"	c
+MyPlot	myplot.py	/^class MyPlot:$/;"	c
+PGF_BASE_PATH	plot.py	/^PGF_BASE_PATH = "\/Users\/jrocha\/thesis\/monography\/src\/assets\/pgf"$/;"	v
+PandasMock	tests/test_data_frame_cache.py	/^class PandasMock:$/;"	c
+Plot	plot.py	/^class Plot:$/;"	c
+Plot1	plot1.py	/^class Plot1:$/;"	c
+Plot1Data	plot1data.py	/^class Plot1Data:$/;"	c
+Plot1Statistics	plot1statistics.py	/^class Plot1Statistics:$/;"	c
+QueryRunner	query_runner.py	/^class QueryRunner:$/;"	c
+SessionLoad	Session.vim	/^let SessionLoad = 1$/;"	v
+Statistics	statistics.py	/^class Statistics:$/;"	c
+Stats	stats.py	/^class Stats:$/;"	c
+TestData	tests/test_data.py	/^class TestData(TestCase):$/;"	c
+TestDataFrameCache	tests/test_data_frame_cache.py	/^class TestDataFrameCache(TestCase):$/;"	c
+TestExperiment	tests/test_experiment.py	/^class TestExperiment(TestCase):$/;"	c
+TestExperimentFactory	tests/test_experiment_factory.py	/^class TestExperimentFactory(TestCase):$/;"	c
+TestMyPlot	tests/test_myplot.py	/^class TestMyPlot(TestCase):$/;"	c
+TestPandas	tests/test_pandas.py	/^class TestPandas(TestCase):$/;"	c
+TestPlayground	tests/test_playground.py	/^class TestPlayground(TestCase):$/;"	c
+TestStatistics	tests/test_statistics.py	/^class TestStatistics(TestCase):$/;"	c
+TestStats	tests/test_stats.py	/^class TestStats(TestCase):$/;"	c
+TestUtilMock	tests/test_util_mock.py	/^class TestUtilMock(TestCase):$/;"	c
+Util	util.py	/^class Util:$/;"	c
+UtilMock	tests/util_mock.py	/^class UtilMock:$/;"	c
+__init__	compare_runner.py	/^    def __init__(self):$/;"	m	class:CompareRunner
+__init__	data.py	/^    def __init__(self):$/;"	m	class:Data
+__init__	dataframe_cache.py	/^    def __init__(self) -> None:$/;"	m	class:DataFrameCache
+__init__	experiment.py	/^    def __init__(self, df: pd.DataFrame):$/;"	m	class:Experiment
+__init__	experiment_compare.py	/^    def __init__(self):$/;"	m	class:ExperimentCompare
+__init__	experiment_factory.py	/^    def __init__(self):$/;"	m	class:ExperimentFactory
+__init__	myplot.py	/^    def __init__(self):$/;"	m	class:MyPlot
+__init__	plot.py	/^    def __init__(self):$/;"	m	class:Plot
+__init__	plot1.py	/^    def __init__(self):$/;"	m	class:Plot1
+__init__	plot1data.py	/^    def __init__(self):$/;"	m	class:Plot1Data
+__init__	query_runner.py	/^    def __init__(self):$/;"	m	class:QueryRunner
+__init__	stats.py	/^    def __init__(self, data_path=None):$/;"	m	class:Stats
+__init__	tests/test_data.py	/^    def __init__(self):$/;"	m	class:MockData
+__init__	tests/test_data_frame_cache.py	/^    def __init__(self):$/;"	m	class:PandasMock
+__init__	tests/test_data_frame_cache.py	/^    def __init__(self, args):$/;"	m	class:DataFrameMock
+__init__	tests/test_experiment.py	/^    def __init__(self):$/;"	m	class:ExperimentMock
+__init__	tests/util_mock.py	/^    def __init__(self):$/;"	m	class:UtilMock
+__repr__	experiment.py	/^    def __repr__(self):$/;"	m	class:Experiment	file:
+_bar	compare_runner.py	/^    def _bar(self, speedups, benchmarks):$/;"	m	class:CompareRunner
+_compare_benchmark_suites	stats.py	/^    def _compare_benchmark_suites(self, baseline, candidate):$/;"	m	class:Stats
+_compute_samples_median	stats.py	/^    def _compute_samples_median(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Stats
+_concat_gmean	stats.py	/^    def _concat_gmean(self):$/;"	m	class:Stats
+_filter_median	stats.py	/^    def _filter_median(self):$/;"	m	class:Stats
+_get_baseline	experiment_compare.py	/^    def _get_baseline(self, baseline):$/;"	m	class:ExperimentCompare
+_get_benchmark_suite_average	statistics.py	/^    def _get_benchmark_suite_average(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Statistics
+_get_benchmarks	compare_runner.py	/^    def _get_benchmarks(self,benchmarks):$/;"	m	class:CompareRunner
+_get_benchmarks	myplot.py	/^    def _get_benchmarks(self):$/;"	m	class:MyPlot
+_get_best_baseline	stats.py	/^    def _get_best_baseline(self):$/;"	m	class:Stats
+_get_best_of_experiment	experiment_factory.py	/^    def _get_best_of_experiment(self, experiment):$/;"	m	class:ExperimentFactory
+_get_candidate	experiment_compare.py	/^    def _get_candidate(self, candidate):$/;"	m	class:ExperimentCompare
+_get_columns	tests/test_pandas.py	/^    def _get_columns(self):$/;"	m	class:TestPandas
+_get_df_by_experiment_id	experiment_factory.py	/^    def _get_df_by_experiment_id(self, id):$/;"	m	class:ExperimentFactory
+_get_experiment	experiment_factory.py	/^    def _get_experiment(self):$/;"	m	class:ExperimentFactory
+_get_experiment	stats.py	/^    def _get_experiment(self, id):$/;"	m	class:Stats
+_get_geometric_mean	stats.py	/^    def _get_geometric_mean(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Stats
+_get_id_min	experiment.py	/^    def _get_id_min(self):$/;"	m	class:Experiment
+_get_index	tests/test_pandas.py	/^    def _get_index(self):$/;"	m	class:TestPandas
+_get_labels	myplot.py	/^    def _get_labels(self):$/;"	m	class:MyPlot
+_get_pivot	plot.py	/^    def _get_pivot(self, df):$/;"	m	class:Plot
+_get_pivot	speedups.py	/^def _get_pivot(df):$/;"	f
+_get_reduced_experiment	experiment_factory.py	/^    def _get_reduced_experiment(self):$/;"	m	class:ExperimentFactory
+_get_speedups	experiment_compare.py	/^    def _get_speedups(self, candidate_df,baseline_df,cache_path):$/;"	m	class:ExperimentCompare
+_get_speedups	stats.py	/^    def _get_speedups(self):$/;"	m	class:Stats
+_get_speedups_cache_path	experiment_compare.py	/^    def _get_speedups_cache_path(self, baseline,candidate):$/;"	m	class:ExperimentCompare
+_get_values	tests/test_pandas.py	/^    def _get_values(self):$/;"	m	class:TestPandas
+_has_cache	stats.py	/^    def _has_cache(self):$/;"	m	class:Stats
+_list_experiments	mymain.py	/^def _list_experiments(df):$/;"	f
+_plot_speedups	compare_runner.py	/^    def _plot_speedups(self,speedups,benchmarks):$/;"	m	class:CompareRunner
+_pre_process_db	experiment_compare.py	/^    def _pre_process_db(self):$/;"	m	class:ExperimentCompare
+_read_cache	stats.py	/^    def _read_cache(self):$/;"	m	class:Stats
+_reindex_df_from_benchmarks	myplot.py	/^    def _reindex_df_from_benchmarks(self):$/;"	m	class:MyPlot
+_set_boxplot	myplot.py	/^    def _set_boxplot(self):$/;"	m	class:MyPlot
+_set_horizontal_line_at_y1	myplot.py	/^    def _set_horizontal_line_at_y1(self):$/;"	m	class:MyPlot
+_set_labels	myplot.py	/^    def _set_labels(self):$/;"	m	class:MyPlot
+_set_title	myplot.py	/^    def _set_title(self):$/;"	m	class:MyPlot
+_set_xticks	myplot.py	/^    def _set_xticks(self):$/;"	m	class:MyPlot
+_show_speedups	plot.py	/^    def _show_speedups(self, ax, speedups):$/;"	m	class:Plot
+_write_cache	stats.py	/^    def _write_cache(self):$/;"	m	class:Stats
+add_average	tests/test_experiment.py	/^    def add_average(self):$/;"	m	class:ExperimentMock
+add_metrics_column	experiment.py	/^    def add_metrics_column(self):$/;"	m	class:Experiment
+add_metrics_column	tests/test_experiment.py	/^    def add_metrics_column(self):$/;"	m	class:ExperimentMock
+average_fields	statistics.py	/^average_fields = [bench, metrics]$/;"	v
+average_group	statistics.py	/^average_group = [date, strategy, length, cardinality, phases]$/;"	v
+bar	myplot.py	/^    def bar(self, df):$/;"	m	class:MyPlot
+bench	statistics.py	/^bench = "bench"$/;"	v
+best_by_bin_size	experiment.py	/^    def best_by_bin_size(self):$/;"	m	class:Experiment
+best_by_cpu_cycles	experiment.py	/^    def best_by_cpu_cycles(self):$/;"	m	class:Experiment
+cardinality	statistics.py	/^cardinality = "cardinality"$/;"	v
+cli	mymain.py	/^def cli():$/;"	f
+cli	speedups_main.py	/^def cli():$/;"	f
+colors	myplot.py	/^colors = {"-O0": "green", "-O1": "red", "-O2": "orange", "-O3": "blue", "-Os": "brown"}$/;"	v
+colors	plot.py	/^colors = {"-O0": "green", "-O1": "red", "-O2": "orange", "-O3": "blue", "-Os": "brown"}$/;"	v
+columns_df	data.py	/^    def columns_df(self, df: pd.DataFrame):$/;"	m	class:Data
+columns_df	stats.py	/^    def columns_df(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Stats
+columns_df	tests/test_data.py	/^    def columns_df(self, df):$/;"	m	class:MockData
+compare	experiment.py	/^    def compare(self, experiment: Experiment) -> pd.DataFrame:$/;"	m	class:Experiment
+compare	mymain.py	/^def compare(db, candidate, baseline, plot, benchmarks, save, sharex, show):$/;"	f
+compare	statistics.py	/^    def compare(self, candidate, baseline):$/;"	m	class:Statistics
+compare	stats.py	/^    def compare(self, baseline, candidate):$/;"	m	class:Stats
+compare_experiments	stats.py	/^    def compare_experiments(self, df1, df2):$/;"	m	class:Stats
+compare_without_pivot	experiment.py	/^    def compare_without_pivot(self, experiment):$/;"	m	class:Experiment
+compare_without_pivot	statistics.py	/^    def compare_without_pivot(self, candidate, baseline):$/;"	m	class:Statistics
+compute	plot1statistics.py	/^    def compute(self, df):$/;"	m	class:Plot1Statistics
+compute_samples_median	stats.py	/^    def compute_samples_median(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Stats
+concat_geometric_mean	stats.py	/^    def concat_geometric_mean(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Stats
+concat_gmean	speedups.py	/^def concat_gmean(df):$/;"	f
+concat_gmean	stats.py	/^    def concat_gmean(self, df: pd.DataFrame):$/;"	m	class:Stats
+create_date_hash	stats.py	/^    def create_date_hash(self, df):$/;"	m	class:Stats
+create_sequence_hash	stats.py	/^    def create_sequence_hash(self, df):$/;"	m	class:Stats
+data	test.py	/^data = Data()$/;"	v
+date	statistics.py	/^date = "date_id"$/;"	v
+df	test.py	/^df = data.columns_df(df)$/;"	v
+df	test.py	/^df = data.filter_errors(df)$/;"	v
+df	test.py	/^df = data.get_average(df) $/;"	v
+df	test.py	/^df = data.get_samples(df) $/;"	v
+df	test.py	/^df = data.hash(df)$/;"	v
+df	test.py	/^df = data.rename_df(df)$/;"	v
+df	test.py	/^df = df.loc[df.strategy.str.startswith('-O')]$/;"	v
+df	test.py	/^df = pd.read_csv(path,na_values='None',engine='pyarrow')$/;"	v
+draw	plot1.py	/^    def draw(self):$/;"	m	class:Plot1
+exists	dataframe_cache.py	/^    def exists(self, cache_path: str) -> bool:$/;"	m	class:DataFrameCache
+filter_errors	data.py	/^    def filter_errors(self, df):$/;"	m	class:Data
+filter_errors	tests/test_data.py	/^    def filter_errors(self, df):$/;"	m	class:MockData
+filter_median	speedups.py	/^def filter_median(df):$/;"	f
+from_csv	stats.py	/^    def from_csv(self, path):$/;"	m	class:Stats
+get	data.py	/^    def get(self, csv_path: str) -> pd.DataFrame:$/;"	m	class:Data
+get	dataframe_cache.py	/^    def get(self, cache_path: str) -> pd.DataFrame:$/;"	m	class:DataFrameCache
+get	experiment_factory.py	/^    def get(self, idx):$/;"	m	class:ExperimentFactory
+get_average	data.py	/^    def get_average(self, df):$/;"	m	class:Data
+get_average	statistics.py	/^    def get_average(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Statistics
+get_average	tests/test_data.py	/^    def get_average(self, df):$/;"	m	class:MockData
+get_best	speedups.py	/^def get_best(df):$/;"	f
+get_best_std	data.py	/^    def get_best_std(self, df):$/;"	m	class:Data
+get_bsuite_observation_id	tests/util_mock.py	/^    def get_bsuite_observation_id(self, df):$/;"	m	class:UtilMock
+get_bsuite_observation_id	util.py	/^    def get_bsuite_observation_id(self, series: pd.Series) -> str:$/;"	m	class:Util
+get_data	data.py	/^    def get_data(self, path):$/;"	m	class:Data
+get_data	tests/test_data.py	/^    def get_data(self,path):$/;"	m	class:MockData
+get_df	compare_runner.py	/^    def get_df(self):$/;"	m	class:CompareRunner
+get_df	query_runner.py	/^    def get_df(self):$/;"	m	class:QueryRunner
+get_df_by_id	query_runner.py	/^    def get_df_by_id(self, id):$/;"	m	class:QueryRunner
+get_experiment	speedups.py	/^def get_experiment(df, id):$/;"	f
+get_ids	stats.py	/^    def get_ids(self):$/;"	m	class:Stats
+get_log	tests/test_data.py	/^    def get_log(self):$/;"	m	class:MockData
+get_log	tests/test_experiment.py	/^    def get_log(self):$/;"	m	class:ExperimentMock
+get_samples	data.py	/^    def get_samples(self, df):$/;"	m	class:Data
+get_samples	statistics.py	/^    def get_samples(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Statistics
+get_samples	tests/test_data.py	/^    def get_samples(self, df):$/;"	m	class:MockData
+get_speedups	compare_runner.py	/^    def get_speedups(self):$/;"	m	class:CompareRunner
+get_speedups	experiment_compare.py	/^    def get_speedups(self, candidate, baseline):$/;"	m	class:ExperimentCompare
+get_speedups	query_runner.py	/^    def get_speedups(self):$/;"	m	class:QueryRunner
+get_speedups	speedups.py	/^def get_speedups(candidate, baseline):$/;"	f
+get_speedups	statistics.py	/^    def get_speedups($/;"	m	class:Statistics
+get_speedups	stats.py	/^    def get_speedups(self):$/;"	m	class:Stats
+get_speedups_against_best_standard_opt	stats.py	/^    def get_speedups_against_best_standard_opt(self):$/;"	m	class:Stats
+get_std_opts	data.py	/^    def get_std_opts(self, df):$/;"	m	class:Data
+get_std_opts	stats.py	/^    def get_std_opts(self):$/;"	m	class:Stats
+get_std_opts_speedups	stats.py	/^    def get_std_opts_speedups(self):$/;"	m	class:Stats
+get_uniq_phases	query_runner.py	/^    def get_uniq_phases(self, df):$/;"	m	class:QueryRunner
+gx	Session.vim	/^nmap gx <Plug>NetrwBrowseX$/;"	m
+hash	data.py	/^    def hash(self, df):$/;"	m	class:Data
+hash	tests/test_data.py	/^    def hash(self, df):$/;"	m	class:MockData
+hash_columns	tests/test_experiment.py	/^    def hash_columns(self):$/;"	m	class:ExperimentMock
+histogram_std_opts	plot.py	/^    def histogram_std_opts(self):$/;"	m	class:Plot
+index_df	stats.py	/^    def index_df(self, df: pd.DataFrame) -> pd.DataFrame:$/;"	m	class:Stats
+init	stats.py	/^    def init(self):$/;"	m	class:Stats
+jj	Session.vim	/^imap jj $/;"	m
+latex	speedups_main.py	/^def latex(data_path, baseline_id, candidate_id):$/;"	f
+length	statistics.py	/^length = "length"$/;"	v
+list	mymain.py	/^def list(db):$/;"	f
+list	speedups_main.py	/^def list(data_path):$/;"	f
+metrics	statistics.py	/^metrics = "metrics"$/;"	v
+myinit	stats.py	/^    def myinit(self):$/;"	m	class:Stats
+path	test.py	/^path = '~\/data\/results\/database3.csv'$/;"	v
+phases	statistics.py	/^phases = "phases_id"$/;"	v
+plot	compare_runner.py	/^    def plot(self, speedups, benchmarks):$/;"	m	class:CompareRunner
+plot	myplot.py	/^    def plot(self, df):$/;"	m	class:MyPlot
+plot	speedups_main.py	/^def plot(data_path, baseline_id, candidate_id):$/;"	f
+pre_process_df	stats.py	/^    def pre_process_df(self, df):$/;"	m	class:Stats
+query	mymain.py	/^def query(db, candidate, baseline):$/;"	f
+query	speedups_main.py	/^def query(data_path, baseline_id, candidate_id):$/;"	f
+read_pickle	tests/test_data_frame_cache.py	/^    def read_pickle(self, path):$/;"	m	class:PandasMock
+reduce_samples	tests/test_experiment.py	/^    def reduce_samples(self):$/;"	m	class:ExperimentMock
+rename_columns	tests/test_experiment.py	/^    def rename_columns(self):$/;"	m	class:ExperimentMock
+rename_df	data.py	/^    def rename_df(self, df):$/;"	m	class:Data
+rename_df	stats.py	/^    def rename_df(self, df):$/;"	m	class:Stats
+rename_df	tests/test_data.py	/^    def rename_df(self, df):$/;"	m	class:MockData
+run	compare_runner.py	/^    def run(self):$/;"	m	class:CompareRunner
+run	query_runner.py	/^    def run(self):$/;"	m	class:QueryRunner
+s:cpo_save	Session.vim	/^let s:cpo_save=&cpo$/;"	v
+s:l	Session.vim	/^let s:l = 10 - ((4 * winheight(0) + 9) \/ 18)$/;"	v
+s:l	Session.vim	/^let s:l = 10 - ((9 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 15 - ((14 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 175 - ((9 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 2 - ((1 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 2 - ((1 * winheight(0) + 18) \/ 36)$/;"	v
+s:l	Session.vim	/^let s:l = 20 - ((0 * winheight(0) + 9) \/ 18)$/;"	v
+s:l	Session.vim	/^let s:l = 28 - ((10 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 4 - ((3 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 41 - ((34 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 46 - ((13 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 5 - ((4 * winheight(0) + 9) \/ 18)$/;"	v
+s:l	Session.vim	/^let s:l = 87 - ((20 * winheight(0) + 17) \/ 35)$/;"	v
+s:l	Session.vim	/^let s:l = 92 - ((32 * winheight(0) + 17) \/ 35)$/;"	v
+s:save_splitbelow	Session.vim	/^let s:save_splitbelow = &splitbelow$/;"	v
+s:save_splitright	Session.vim	/^let s:save_splitright = &splitright$/;"	v
+s:save_winminheight	Session.vim	/^let s:save_winminheight = &winminheight$/;"	v
+s:save_winminwidth	Session.vim	/^let s:save_winminwidth = &winminwidth$/;"	v
+s:so_save	Session.vim	/^let s:so_save = &g:so | let s:siso_save = &g:siso | setg so=0 siso=0 | setl so=-1 siso=-1$/;"	v
+s:sx	Session.vim	/^let s:sx = expand("<sfile>:p:r")."x.vim"$/;"	v
+s:wipebuf	Session.vim	/^  let s:wipebuf = bufnr('%')$/;"	v
+samples_fields	statistics.py	/^samples_fields = samples_group + [metrics]$/;"	v
+samples_group	statistics.py	/^samples_group = [date, strategy, length, cardinality, phases, bench]$/;"	v
+save	dataframe_cache.py	/^    def save(self, cache_path) -> None:$/;"	m	class:DataFrameCache
+setUp	tests/test_data.py	/^    def setUp(self):$/;"	m	class:TestData
+setUp	tests/test_data_frame_cache.py	/^    def setUp(self):$/;"	m	class:TestDataFrameCache
+setUp	tests/test_experiment.py	/^    def setUp(self):$/;"	m	class:TestExperiment
+setUp	tests/test_experiment_factory.py	/^    def setUp(self):$/;"	m	class:TestExperimentFactory
+setUp	tests/test_myplot.py	/^    def setUp(self):$/;"	m	class:TestMyPlot
+setUp	tests/test_pandas.py	/^    def setUp(self):$/;"	m	class:TestPandas
+setUp	tests/test_statistics.py	/^    def setUp(self):$/;"	m	class:TestStatistics
+setUp	tests/test_stats.py	/^    def setUp(self) -> None:$/;"	m	class:TestStats
+set_metrics_column	experiment.py	/^    def set_metrics_column(self):$/;"	m	class:Experiment
+set_size	plot.py	/^def set_size(width_pt, fraction=1, subplots=(1, 1)):$/;"	f
+set_size	util.py	/^    def set_size(self, width_pt, fraction=1, subplots=(1, 1)):$/;"	m	class:Util
+show	plot.py	/^    def show(self):$/;"	m	class:Plot
+show_cpu_cycles	plot.py	/^    def show_cpu_cycles(self, ax, df):$/;"	m	class:Plot
+show_speedups	plot.py	/^    def show_speedups(self):$/;"	m	class:Plot
+show_speedups	speedups.py	/^def show_speedups(ax, speedups):$/;"	f
+show_speedups_against_best_standard_opt	plot.py	/^    def show_speedups_against_best_standard_opt(self, ax, speedups):$/;"	m	class:Plot
+show_speedups_against_strategy	plot.py	/^    def show_speedups_against_strategy(self, ax, speedups):$/;"	m	class:Plot
+show_std_opts	plot.py	/^    def show_std_opts(self):$/;"	m	class:Plot
+show_std_speedups	plot.py	/^    def show_std_speedups(self, ax, speedups):$/;"	m	class:Plot
+standard_opts_comparison	plot.py	/^    def standard_opts_comparison(self):$/;"	m	class:Plot
+std_opts_lengths	plot.py	/^    def std_opts_lengths(self):$/;"	m	class:Plot
+strategy	statistics.py	/^strategy = "strategy"$/;"	v
+strategy_v_best_standard	plot.py	/^    def strategy_v_best_standard(self):$/;"	m	class:Plot
+test_add_average	tests/test_experiment_factory.py	/^    def test_add_average(self):$/;"	m	class:TestExperimentFactory
+test_add_metrics_column	tests/test_experiment.py	/^    def test_add_metrics_column(self):$/;"	m	class:TestExperiment
+test_average	tests/test_experiment.py	/^    def test_average(self):$/;"	m	class:TestExperiment
+test_bad_save	tests/test_data_frame_cache.py	/^    def test_bad_save(self):$/;"	m	class:TestDataFrameCache
+test_bar	tests/test_playground.py	/^    def test_bar(self):$/;"	m	class:TestPlayground
+test_barplot	tests/test_myplot.py	/^    def test_barplot(self):$/;"	m	class:TestMyPlot
+test_best_by_bin_size	tests/test_experiment.py	/^    def test_best_by_bin_size(self):$/;"	m	class:TestExperiment
+test_best_by_cpu_cycles	tests/test_experiment.py	/^    def test_best_by_cpu_cycles(self):$/;"	m	class:TestExperiment
+test_box_plot	tests/test_myplot.py	/^    def test_box_plot(self):$/;"	m	class:TestMyPlot
+test_columns	tests/test_experiment.py	/^    def test_columns(self):$/;"	m	class:TestExperiment
+test_columns_df	tests/test_data.py	/^    def test_columns_df(self):$/;"	m	class:TestData
+test_columns_from_csv	tests/test_pandas.py	/^    def test_columns_from_csv(self):$/;"	m	class:TestPandas
+test_columns_not_sliced	tests/test_data.py	/^    def test_columns_not_sliced(self):$/;"	m	class:TestData
+test_compare	tests/test_experiment.py	/^    def test_compare(self):$/;"	m	class:TestExperiment
+test_compare	tests/test_pandas.py	/^    def test_compare(self):$/;"	m	class:TestPandas
+test_compare_benchmark_suites	tests/test_stats.py	/^    def test_compare_benchmark_suites(self) -> None:$/;"	m	class:TestStats
+test_compare_benchmark_suites_with_duplicated_benchmarks	tests/test_stats.py	/^    def test_compare_benchmark_suites_with_duplicated_benchmarks(self):$/;"	m	class:TestStats
+test_compare_experiments	tests/test_stats.py	/^    def test_compare_experiments(self):$/;"	m	class:TestStats
+test_compute_gmean	tests/test_pandas.py	/^    def test_compute_gmean(self):$/;"	m	class:TestPandas
+test_compute_median_values	tests/test_pandas.py	/^    def test_compute_median_values(self):$/;"	m	class:TestPandas
+test_compute_samples_median	tests/test_stats.py	/^    def test_compute_samples_median(self) -> None:$/;"	m	class:TestStats
+test_concat_geometric_mean	tests/test_stats.py	/^    def test_concat_geometric_mean(self) -> None:$/;"	m	class:TestStats
+test_exists	tests/test_data_frame_cache.py	/^    def test_exists(self):$/;"	m	class:TestDataFrameCache
+test_foo	tests/test_playground.py	/^    def test_foo(self):$/;"	m	class:TestPlayground
+test_get	tests/test_data.py	/^    def test_get(self):$/;"	m	class:TestData
+test_get	tests/test_data_frame_cache.py	/^    def test_get(self):$/;"	m	class:TestDataFrameCache
+test_get_average	tests/test_statistics.py	/^    def test_get_average(self):$/;"	m	class:TestStatistics
+test_get_best_by_bin_size	tests/test_experiment_factory.py	/^    def test_get_best_by_bin_size(self):$/;"	m	class:TestExperimentFactory
+test_get_best_by_cpu_cycles	tests/test_experiment_factory.py	/^    def test_get_best_by_cpu_cycles(self):$/;"	m	class:TestExperimentFactory
+test_get_best_std	tests/test_experiment_factory.py	/^    def test_get_best_std(self):$/;"	m	class:TestExperimentFactory
+test_get_best_std_per_bench	tests/test_data.py	/^    def test_get_best_std_per_bench(self):$/;"	m	class:TestData
+test_get_bsuite_observation_id	tests/test_util_mock.py	/^    def test_get_bsuite_observation_id(self) -> None:$/;"	m	class:TestUtilMock
+test_get_experiment	tests/test_experiment_factory.py	/^    def test_get_experiment(self):$/;"	m	class:TestExperimentFactory
+test_get_samples	tests/test_statistics.py	/^    def test_get_samples(self):$/;"	m	class:TestStatistics
+test_get_speedups	tests/test_statistics.py	/^    def test_get_speedups(self):$/;"	m	class:TestStatistics
+test_get_std	tests/test_experiment_factory.py	/^    def test_get_std(self):$/;"	m	class:TestExperimentFactory
+test_get_std_opts	tests/test_data.py	/^    def test_get_std_opts(self):$/;"	m	class:TestData
+test_hash	tests/test_data.py	/^    def test_hash(self):$/;"	m	class:TestData
+test_hash_columns	tests/test_experiment.py	/^    def test_hash_columns(self):$/;"	m	class:TestExperiment
+test_index_duplicates	tests/test_data.py	/^    def test_index_duplicates(self):$/;"	m	class:TestData
+test_index_from_csv	tests/test_pandas.py	/^    def test_index_from_csv(self):$/;"	m	class:TestPandas
+test_pivot	tests/test_statistics.py	/^    def test_pivot(self):$/;"	m	class:TestStatistics
+test_rename_columns	tests/test_experiment.py	/^    def test_rename_columns(self):$/;"	m	class:TestExperiment
+test_rename_df	tests/test_data.py	/^    def test_rename_df(self):$/;"	m	class:TestData
+test_samples	tests/test_experiment.py	/^    def test_samples(self):$/;"	m	class:TestExperiment
+test_save	tests/test_data_frame_cache.py	/^    def test_save(self):$/;"	m	class:TestDataFrameCache
+test_speedup	tests/test_myplot.py	/^    def test_speedup(self):$/;"	m	class:TestMyPlot
+test_speedups	tests/test_pandas.py	/^    def test_speedups(self):$/;"	m	class:TestPandas
+test_speedups	tests/test_playground.py	/^    def test_speedups(self):$/;"	m	class:TestPlayground
+to_pickle	tests/test_data_frame_cache.py	/^    def to_pickle(self, path: str):$/;"	m	class:DataFrameMock
+zt	Session.vim	/^normal! zt$/;"	m
+zz	Session.vim	/^imap zz :update$/;"	m
+zz	Session.vim	/^nnoremap zz :update$/;"	m
