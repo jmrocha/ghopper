@@ -1,0 +1,2 @@
+class CommandInvocationError(Exception):
+    pass

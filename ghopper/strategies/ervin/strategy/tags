@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ItergraphRandomRootStrategy	itergraph_random_root_strategy.py	/^class ItergraphRandomRootStrategy(ItergraphStrategy):$/;"	c
+ItergraphStrategy	itergraph_strategy.py	/^class ItergraphStrategy(Strategy):$/;"	c
+RandomStrategy	random_strategy.py	/^class RandomStrategy(Strategy):$/;"	c
+Strategy	strategy.py	/^class Strategy:$/;"	c
+StrategyS1c	strategy_s1c.py	/^class StrategyS1c(ItergraphStrategy):$/;"	c
+__init__	itergraph_strategy.py	/^    def __init__(self):$/;"	m	class:ItergraphStrategy
+__init__	random_strategy.py	/^    def __init__(self):$/;"	m	class:RandomStrategy
+__init__	strategy.py	/^    def __init__(self):$/;"	m	class:Strategy
+_reset	itergraph_strategy.py	/^    def _reset(self):$/;"	m	class:ItergraphStrategy
+_reset	strategy.py	/^    def _reset(self):$/;"	m	class:Strategy
+get_conn_degree	itergraph_strategy.py	/^    def get_conn_degree(self, node: str) -> float:$/;"	m	class:ItergraphStrategy
+get_edge_weight	itergraph_strategy.py	/^    def get_edge_weight(self, edge):$/;"	m	class:ItergraphStrategy
+get_first_pass	itergraph_random_root_strategy.py	/^    def get_first_pass(self):$/;"	m	class:ItergraphRandomRootStrategy
+get_first_pass	itergraph_strategy.py	/^    def get_first_pass(self) -> str:$/;"	m	class:ItergraphStrategy
+get_first_pass	strategy_s1c.py	/^    def get_first_pass(self):$/;"	m	class:StrategyS1c
+get_probability_distribution	itergraph_strategy.py	/^    def get_probability_distribution(self) -> list[Range]:$/;"	m	class:ItergraphStrategy
+get_random	itergraph_strategy.py	/^    def get_random(self) -> float:$/;"	m	class:ItergraphStrategy
+has_next_pass	itergraph_strategy.py	/^    def has_next_pass(self):$/;"	m	class:ItergraphStrategy
+has_next_pass	random_strategy.py	/^    def has_next_pass(self) -> bool:$/;"	m	class:RandomStrategy
+has_next_pass	strategy.py	/^    def has_next_pass(self) -> bool:$/;"	m	class:Strategy
+has_reached_desired_sequence_length	itergraph_strategy.py	/^    def has_reached_desired_sequence_length(self):$/;"	m	class:ItergraphStrategy
+has_reached_max_iterations	itergraph_strategy.py	/^    def has_reached_max_iterations(self):$/;"	m	class:ItergraphStrategy
+has_successors	itergraph_strategy.py	/^    def has_successors(self):$/;"	m	class:ItergraphStrategy
+is_first_iteration	itergraph_strategy.py	/^    def is_first_iteration(self):$/;"	m	class:ItergraphStrategy
+next_pass	itergraph_strategy.py	/^    def next_pass(self) -> str:$/;"	m	class:ItergraphStrategy
+next_pass	random_strategy.py	/^    def next_pass(self) -> str:$/;"	m	class:RandomStrategy
+next_pass	strategy.py	/^    def next_pass(self) -> str:$/;"	m	class:Strategy
+search	itergraph_strategy.py	/^    def search(self):$/;"	m	class:ItergraphStrategy
+search	strategy.py	/^    def search(self) -> str:$/;"	m	class:Strategy
