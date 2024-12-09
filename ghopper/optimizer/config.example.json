@@ -1,0 +1,14 @@
+{
+  "config": {
+    "benchmark_suite_path": "./benchmark-suites/polybench-4.2.1",
+    "phase_orders_path": "./data/phase-orders.json",
+    "benchmark_timeout_in_s": 10,
+    "output_path": "./out.csv"
+  },
+  "metadata": {
+    "benchmark_suite_name": "PolyBench 4.2.1",
+    "target": "AArch64",
+    "toolchain": "LLVM 12.0.1",
+    "dataset_size": "mini"
+  }
+}
