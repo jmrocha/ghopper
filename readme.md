@@ -23,11 +23,6 @@ LLVM 12.0 compiler infrastructure and solely targeting computing platforms using
 ARMv8 64-bit architecture.
 
 ## Packages
-There are three packages `strategies`, `optimizer`, and `analysis`. The `strategies` package implements the strategies to choose sequences of phases to be executed against benchmarks. The `optimizer` package applies sequences of phases to a benchmark suite and generates metrics data. The `analysis` package
-- `strategies`
-- `optimizer`
-- `analysis`
-
 1. **Compiler Phase-Ordering Strategies**
 The package `strategies` implements strategies that utilize iterative compilation to address
    the compiler phase ordering problem.
